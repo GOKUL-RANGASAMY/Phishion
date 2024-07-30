@@ -24,7 +24,7 @@ Phishion is a sophisticated phishing detection system powered by a machine learn
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/YOUR_GITHUB_USERNAME/Phishion.git
+    git clone https://github.com/GOKUL-RANGASAMY/Phishion
     cd Phishion
     ```
 
