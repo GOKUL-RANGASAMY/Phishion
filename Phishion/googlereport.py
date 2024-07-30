@@ -13,7 +13,7 @@ def report_phishing_website(urls):
 
     try:
         
-        url = 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyAbOMFndBXgaDIx3rudrlgd73yonjb07Ac'  
+        url = 'https://safebrowsing.googleapis.com/v4/threatMatches:find?key=key'  
         headers = {'Content-Type': 'application/json'}
         payload = {
             "client": {
