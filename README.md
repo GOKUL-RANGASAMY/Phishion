@@ -23,50 +23,37 @@ Phishion is a sophisticated phishing detection system powered by a machine learn
 
 ## Installation
 1. Clone the repository:
-    ```sh
+    
+sh
     git clone https://github.com/GOKUL-RANGASAMY/Phishion
     cd Phishion
-    ```
+
 
 2. Install dependencies:
-    ```sh
+    
+sh
     npm install
-    ```
+
 
 3. Set up environment variables:
-    Create a `.env` file in the root directory and add the following variables:
-    ```env
+    Create a .env file in the root directory and add the following variables:
+    
+env
     VITE_VIRUSTOTAL_API_KEY=your_virustotal_api_key
     VITE_GEMINIPRO_API_KEY=your_gemini_pro_api_key
-    ```
+
 
 ## Usage
 1. Start the development server:
-    ```sh
+    
+sh
     npm run dev
-    ```
 
-2. Open your browser and navigate to `http://localhost:5173`.
 
-3. Enter a URL for phishing threats.
+2. Open your browser and navigate to http://localhost:5173.
 
-## Animations
-Here are some engaging animations from LottieFiles used in this project:
+3. Enter a URL  for phishing threats.
 
-1. **Loading Animation**:
-    ![Loading Animation](https://assets10.lottiefiles.com/packages/lf20_jcikwtux.json)
-
-2. **Success Animation**:
-    ![Success Animation](https://assets2.lottiefiles.com/packages/lf20_h4pr2hdq.json)
-
-3. **Error Animation**:
-    ![Error Animation](https://assets6.lottiefiles.com/packages/lf20_yav0g6u0.json)
-
-4. **Phishing Alert Animation**:
-    ![Phishing Alert Animation](https://assets5.lottiefiles.com/packages/lf20_ze12f9fz.json)
-
-5. **Analysis Complete Animation**:
-    ![Analysis Complete Animation](https://assets7.lottiefiles.com/packages/lf20_lk80fpsv.json)
 
 ## Acknowledgements
 - **VirusTotal** for their comprehensive threat analysis API.
